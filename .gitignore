@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Ignore Pycharm Configs
+/.idea/
+
+# Ignore saved model folder
+/saved_models/
+
+# ignore jupyter checkpoints folder
+/notebooks/.ipynb_checkpoints/
+
+# ignore data folder
+/data/
