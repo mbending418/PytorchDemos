@@ -13,6 +13,7 @@ class FCNetImageClassifier(torch.nn.Module):
     the hidden layer is followed by a RELU
     regresses to an output layer size "output_categories"
     """
+
     image_size: Tuple[int, int]
     hidden_layer_size: int
     output_categories: int
