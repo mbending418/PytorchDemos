@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pytorch-demos"
+version = "0.1.0"
+description = ""
+authors = ["Michael Bending <michael.a.bending@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.14"
+torch = "^2.8.0"
+jupyterlab = "^4.4.8"
+torchvision = "^0.23.0"
+numpy = "^2.3.3"
+click = "^8.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.18.2"
+black = "^25.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
